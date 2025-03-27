@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "base.html" %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+{% block title %}About - DataLab{% endblock %}
 
-<body>
-    <h1>About page</h1>
-    <p>This is a personal project to keep up to date with the latest Python Data Analyst trends, while also practicing
-        my Pandas knowledge.</p>
-</body>
-
-</html>
+{% block content %}
+    <h1>About DataLab</h1>
+    <p>DataLab is a platform for data analysis, visualization, and exploration. We aim to make complex data easy to
+    understand and interactive.</p>
+{% endblock %}
