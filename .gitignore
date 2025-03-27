@@ -1,1 +1,6 @@
+# Ignore the virtual environment
 DataLab_venv/
+
+__pycache__/
+*.pyc
+*.pyo
