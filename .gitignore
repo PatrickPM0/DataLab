@@ -4,3 +4,5 @@ DataLab_venv/
 __pycache__/
 *.pyc
 *.pyo
+kaggle.json
+temp.py
